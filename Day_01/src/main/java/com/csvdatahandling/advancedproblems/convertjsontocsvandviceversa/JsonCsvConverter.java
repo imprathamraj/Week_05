@@ -32,7 +32,7 @@ public class JsonCsvConverter {
         try (FileWriter writer = new FileWriter(csvFile);
              CSVWriter csvWriter = new CSVWriter(writer)) {
 
-            csvWriter.writeNext(new String[]{"ID", "Name", "Age", "Grade"});
+            csvWriter.writeNext(new String[]{"id", "Name", "Age", "Grade"});
 
             for (Student student : students) {
                 csvWriter.writeNext(new String[]{
