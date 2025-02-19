@@ -6,7 +6,6 @@ class Car {
     //Fields
     public String brand;
     public int year;
-
     //Constructor
     public Car(String brand, int year) {
         this.brand = brand;
