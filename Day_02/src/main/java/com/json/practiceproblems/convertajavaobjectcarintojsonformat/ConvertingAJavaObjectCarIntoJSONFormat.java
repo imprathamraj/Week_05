@@ -1,4 +1,4 @@
-package com.json.handsonpracticeproblems.convertajavaobjectcarintojsonformat;
+package com.json.practiceproblems.convertajavaobjectcarintojsonformat;
 
 import org.json.JSONObject;
 
