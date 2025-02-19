@@ -1,4 +1,4 @@
-package com.json.practiceproblems.convertajavaobjectcarintojsonformat;
+package com.json.practiceproblems.createajsonobjectforastudentwithfields;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
