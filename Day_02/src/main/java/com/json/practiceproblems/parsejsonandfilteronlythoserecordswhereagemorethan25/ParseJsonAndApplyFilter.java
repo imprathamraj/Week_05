@@ -10,7 +10,7 @@ import java.util.List;
 public class ParseJsonAndApplyFilter {
     public static void main(String[] args) {
         try{
-            // creating objectmaper to read json
+            // creating object mapper to read json
             ObjectMapper objmapper = new ObjectMapper();
 
             // storing the object in json to list
