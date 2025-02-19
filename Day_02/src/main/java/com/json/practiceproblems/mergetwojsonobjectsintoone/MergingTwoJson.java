@@ -9,7 +9,7 @@ public class MergingTwoJson {
     public static void main(String[] args) {
         ObjectMapper mapper = new ObjectMapper();
 
-        //creating the objrct
+        //creating the object
         JSONObject obj1= new JSONObject();
         //putting the key value in the object
         obj1.put("name","Pratham Raj");
@@ -20,7 +20,7 @@ public class MergingTwoJson {
         objArr.put("COA").put("ADDA").put("CLOUD");
         obj1.put("subjects",objArr);
 
-        //creating the objrct
+        //creating the object
         JSONObject obj2= new JSONObject();
         //putting the key value in the object
         obj2.put("Email","pratham@gmail.com");
@@ -28,7 +28,5 @@ public class MergingTwoJson {
 
         obj2.keySet().forEach(key->obj1.put(key,obj2.get(key)));
         System.out.println(obj1.toString(5));
-
-
     }
 }
